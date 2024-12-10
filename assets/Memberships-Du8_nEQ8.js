@@ -1,0 +1,1 @@
+import{j as e,bV as a,D as s}from"./index-W2AL0DnC.js";import{S as t}from"./index-CvloCrzG.js";import"./MembershipAPI-D2n6KU8D.js";const l=()=>e.jsx(a,{title:"My Memberships",children:e.jsx(t,{displayType:s.collapsable,automaticallyUpdate:!1})});export{l as default};

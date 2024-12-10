@@ -1,0 +1,57 @@
+{
+  "KROGER_CLIENT_ID": "pvrple-local-48c603d9aecd45be2010f032288b65967076406181133946236",
+  "KROGER_REDIRECT_URL": "http://localhost:3000/carts",
+  "API_URL": "http://localhost:5141/api/v1/",
+  "APP_URL": "http://localhost:3000",
+  "AWS": {
+    "region": "us-east-2",
+    "userPoolId": "us-east-2_Y7X8MIHwN",
+    "userPoolWebClientId": "5n3pr3rtgmcjt3cp5lfddvldcj"
+  },
+  "LOADING_BAR_CONFIG": {
+    "SMART_SHOPPING_LOADING_DURATION": 180,
+    "SEARCH_LOADING_DURATION": 45
+  },
+  "CloudWatch": {
+    "AwsRumConfig": {
+      "sessionSampleRate": 1,
+      "guestRoleArn": "arn:aws:iam::494665382387:role/cloudwatch-rum",
+      "identityPoolId": "us-east-2:c7ed75bb-75f0-42b3-b217-fafb6b240cc8",
+      "endpoint": "https://dataplane.rum.us-east-2.amazonaws.com",
+      "telemetries": ["http", "errors", "performance"],
+      "allowCookies": true,
+      "enableXRay": false
+    },
+    "APPLICATION_ID": "54f93172-3746-4454-802f-57edecb535ed",
+    "APPLICATION_VERSION": "1.0.0",
+    "APPLICATION_REGION": "us-east-2"
+  },
+  "Authentication": {
+    "google_enabled": true,
+    "auth_server_url": "auth.stg.kartie.com"
+  },
+  "USE_V2_DESIGN": true,
+  "AWS_WAF_ENV": {
+    "JSAPI_URL": "https://31382ccea78e.us-east-2.captcha-sdk.awswaf.com/31382ccea78e/jsapi.js",
+    "CAPTCHA_API_KEY": "Kg4OBM6dYOzfSRbYrZtwtX2o9BZqVX00mkQ4g+HpAKUizi/uzWwbPeHr9VVhhP/mARC5N81KHcT5zz7q6ce6AYmiZ/Qr0+v7KvOf+7CLX550955AlaVoEZ+WdwFJYFTNF9GNJdseKDPz763UHiXQ6CimVu5Ad6AYaXU0P016Uivsed87WNN564arLBzmUaIyWhqAFU9OsMEPaZkypami30uZmpHAf57WpxEvSE4s9LOm7rBkTyC52AA8p1cIY2aUvYl0xmOTWOxHkOax28VzxL7jNW9UxKzqA7i+b7RnsKSor37S/FwvM3oQmj+7GPUZb/I0AqL9GeZMj1PucYoL5ssuj0APaQb14UyDsrH+KqnB2jklajLEovdnbZC1m5BvmEkZQiMWuenPzsxwgggoEKWXWoEUc++vuzgA2Rj6WF3l6dGaLIOfvA0oPRe5jTBNczwVarUQqc438lct+sr4Opj2cZRpuZT8PbrGVSdm5BffdysspxgfNwa//77Q9G3Fb51NndTVAeLzb5dd6uxQs07mmfU/eq4NHWrA2zIj1delkhtGxgg/heVwdGUlbs71RTqpdF1melO0BBGBjHV05KxjeC/+ML3GBj9vfRhQ626OQl4IKUpsbLzU42mo7vFtbzT8XqVUa6sA7C9PZ6ekU4XaRfbi6J7gUqXRJHklf4g=_0_1"
+  },
+  "AWS_S3_DATA_BUCKET_BASE_URL": "https://pvrple-stg-use2-ui-assets.s3.us-east-2.amazonaws.com",
+  "AD_SENSE": {
+    "global_enabled": true,
+    "client": "ca-pub-8203724402903805",
+    "slot": "1360743818"
+  },
+  "HOMEPAGE_AD_SENSE": {
+    "homepage_enabled": true,
+    "homepage_top": true,
+    "homepage_bottom": true
+  },
+  "CATEGORIES_AD_SENSE": {
+    "categories_enabled": true,
+    "categories_leftbar": true,
+    "categories_products": true
+  },
+  "PRODUCTS_AD_SENSE": {
+    "products_enabled": true
+  }
+}
